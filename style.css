@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgba(255, 0, 0, 0.808);
+}
+
+header, nav{
+    width: 95%;
+    height: 50px;
+    background-color: bisque;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.header-left, .header-right{
+    width: 50%;
+    height: 40px;
+    margin-top: 5px;
+    float: left;
+}
+
+.header-left h2, h3{
+    font-size: 16px;
+    text-indent: 10px;
+    line-height: 20px;
+}
+.header-left h3{
+    font-size: 13px;
+}
+
+.header-left img{
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-left: 10px;
+}
+
+.header-right{
+    float: right;
+}
+
+.header-right p{
+    text-align: center;
+}
+
+section{
+    width: 305px;
+    height: 305px;
+    background-color: blue;
+    margin: auto;
+    margin-top: 30px;
+}
+
+section div{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    margin-top: 1px;
+    margin-left: 1px;
+    float: left;
+}
+
+section div:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+}
+
+section .heart{
+    background-image: url(./img/heart.png);
+    background-size: 90px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+nav{
+    margin-top: 30px;
+    text-align: center;
+}
+
+nav button{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+nav .home{
+    background-image: url(./img/home.png);
+}
+nav .heart{
+    background-image: url(./img/heart.png);
+}
+nav .player{
+    background-image: url(./img/play-button.png);
+}
+
